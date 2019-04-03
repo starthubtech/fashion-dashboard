@@ -2443,3 +2443,30 @@ header .form-inline {
         .right-panel .content #bootstrap-data-table_wrapper .table td,
         .right-panel .content #bootstrap-data-table_wrapper .table th {
           padding: 5px; } }
+    
+          .img-fluid{
+            height: 350px;
+          }
+          .carousel-inner{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+          }
+          .carousel-item{
+            transition:.2s all; 
+          }
+          .carousel-inner:hover .card{
+            filter:blur(2px);
+            opacity:.3;
+            transform: scale(.90);
+            box-shadow:none;
+          }
+          .carousel-inner:hover .card:hover{
+            transform:scale(1);
+            filter:blur(0px);
+            opacity:1;
+            box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+          }
+         .gowns{
+           text-decoration: underline blueviolet;
+         }
